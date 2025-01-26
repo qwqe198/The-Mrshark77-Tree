@@ -54,8 +54,8 @@ addLayer("r", {
         5: {
             requirementDescription: "级别6",
             effectDescription: "助推器效果x(质量+1)",
-            done() { return player.r.points.gte(5)&&player.s.points.gte(5) },
-            unlocked(){return hasMilestone("r",3)&&player.s.points.gte(5)},  
+            done() { return player.r.points.gte(6)&&player.s.points.gte(6) },
+            unlocked(){return hasMilestone("r",4)&&player.s.points.gte(6)},  
         },    
     },
     upgrades: {
